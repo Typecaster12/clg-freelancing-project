@@ -1,0 +1,282 @@
+.main-container {
+    max-width: 95rem;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0B0C10;
+    align-items: center;
+    padding-top: 50px;
+    height: 40rem;
+    margin-top: 10rem;
+}
+
+.h1-heading {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.heading1 {
+    font-size: 3.3rem;
+    font-weight: 300;
+    color: white;
+}
+
+.heading2 {
+    font-size: 3.3rem;
+    font-weight: 300;
+    color: white;
+}
+
+/* span inside h1  */
+.heading-span {
+    color: #66fcf1;
+}
+
+
+.search-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin: 20px;
+}
+
+.search-bar {
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #66fcf1;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.search-button svg {
+    width: 20px;
+    height: 20px;
+    color: #8a8a74;
+}
+
+
+.logo-section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.span1 {
+    color: #8a8a74;
+    font-size: 1.1rem;
+}
+
+.logo-section .logos {
+    display: flex;
+    gap: 4rem;
+    color: #8a8a74;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+/* responsiveness */
+@media (max-width: 1550px) {
+    .main-container {
+        max-width: 85rem;
+    }
+}
+
+@media (max-width: 1380px) {
+    .main-container {
+        max-width: 75rem;
+    }
+}
+
+@media (max-width: 1220px) {
+    .main-container {
+        max-width: 65rem;
+    }
+}
+
+@media (max-width: 1060px) {
+    .main-container {
+        max-width: 55rem;
+        height: 35rem;
+    }
+
+    .heading1 {
+        font-size: 2.9rem;
+    }
+
+    .heading2 {
+        font-size: 2.9rem;
+    }
+}
+
+
+@media (max-width: 895px) {
+    .main-container {
+        max-width: 47rem;
+        height: 30rem;
+    }
+
+    .heading1 {
+        font-size: 2.6rem;
+    }
+
+    .heading2 {
+        font-size: 2.6rem;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .main-container {
+        max-width: 40rem;
+    }
+
+    .heading1 {
+        font-size: 2.3rem;
+    }
+
+    .heading2 {
+        font-size: 2.3rem;
+    }
+
+    .logo-section .logos {
+        display: flex;
+        gap: 3rem;
+        color: #8a8a74;
+        font-size: 2.7rem;
+    }
+
+}
+
+
+@media (max-width: 780px) {
+    .main-container {
+        max-width: 35rem;
+    }
+
+    .heading1 {
+        font-size: 2.1rem;
+    }
+
+    .heading2 {
+        font-size: 2.1rem;
+    }
+
+    .logo-section .logos {
+        display: flex;
+        gap: 2.7rem;
+        color: #8a8a74;
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media (max-width: 585px) {
+    .main-container {
+        max-width: 30rem;
+    }
+
+    .heading1 {
+        font-size: 1.8rem;
+    }
+
+    .heading2 {
+        font-size: 1.8rem;
+    }
+
+    .logo-section .logos {
+        display: flex;
+        gap: 2.3rem;
+        color: #8a8a74;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (max-width: 490px) {
+    .main-container {
+        max-width: 30rem;
+        border-radius: 0px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .heading1 {
+        font-size: 1.5rem;
+    }
+
+    .heading2 {
+        font-size: 1.5rem;
+    }
+
+    .logo-section .logos {
+        display: flex;
+        gap: 1.2rem;
+        color: #8a8a74;
+        font-size: 1.6rem;
+    }
+
+    .logo-section {
+        gap: 8px;
+    }
+
+    .span1 {
+        color: #8a8a74;
+        font-size: .8rem;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    .heading1 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .heading2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .search-input {
+        flex-grow: 1;
+        padding: 10px 18px;
+        border: none;
+        font-size: 10px;
+        font-weight: bold;
+        outline: none;
+    }
+
+    .search-button svg {
+        width: 18px;
+        height: 18px;
+        color: #8a8a74;
+    }
+}

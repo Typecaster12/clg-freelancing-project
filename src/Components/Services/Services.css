@@ -113,5 +113,39 @@
     font-size: var(--small-font-size);
 }
 
-/* active modal  */
-.active_
+/* responsiveness */
+@media  screen and (max-width: 992px) {
+    .services__container{
+        grid-template-columns: repeat(3, 218px);
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .service__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service__content{
+        padding: 3.5rem 0.5rem 1.25rem;
+    }
+
+    .services__icon{
+        font-size: 1.5rem;
+    }
+}
+
+@media  screen and (max-width: 576px){
+    .service__container{
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+}
+
+@media  screen and (max-width: 350px){
+    .service__container{
+        grid-template-columns: max-content;
+    }
+
+    .service__content{
+        padding-right: 6rem;
+    }
+}
